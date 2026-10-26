@@ -6,6 +6,10 @@ Cada skill es una ficha de puesto que un agente puede seguir: **quién es, a qui
 
 Autor: **Heroldo Escobedo** · [heroldo.org](https://heroldo.org) · español de México.
 
+**Diagrama del crew, flujos y descarga en ZIP:** [heroldo.org/crew](https://heroldo.org/crew/)
+
+> **In English:** 30 logistics job roles from a Mexican distribution operation — warehouse/DC, transport and yard, customs and foreign trade, inventory and slotting — written as **Agent Skills** (`SKILL.md`) for AI agents such as Claude Code, Codex, Cursor and CrewAI. Each skill defines who the role reports to, what triggers it, its IF/THEN decision rules, hard prohibitions and when to escalate to a human. Content is in Spanish; licensed CC BY 4.0.
+
 ## Para qué sirve
 
 - **Darle criterio de piso a un agente.** Un modelo genérico no sabe que un surtidor no sustituye un SKU agotado por su cuenta, ni que un verificador NOM detiene el despacho sin certificado. Estas fichas se lo dicen con reglas que se pueden revisar.
@@ -79,6 +83,10 @@ python3 validar.py --autoprueba  # comprueba que el validador caza las fallas qu
 - **Las referencias legales se verificaron el 26 de octubre de 2026** (Ley Aduanera arts. 153 y 178, NOM-087-SCT-2-2017, Carta Porte 3.1, Anexos 22 y 24 de las Reglas Generales de Comercio Exterior, Anexo 4-B del T-MEC, NOM-050 y NOM-051, C-TPAT). La regulación cambia: confírmala en el DOF y con tu agente aduanal antes de decidir. **Esto no es asesoría legal ni fiscal.**
 - **Un agente no sustituye la firma de una persona.** Ninguna ficha autoriza a un agente a firmar pedimentos, liberar mercancía regulada o ajustar inventario contable por su cuenta; las fichas dicen a quién se escala.
 - **Origen:** las fichas se redactaron con asistentes de IA y después se auditaron (formato, coherencia entre puestos y datos legales). Si encuentras un error de piso, abre un issue: es la forma en que esto mejora.
+
+## Palabras clave
+
+skills para agentes de IA · logística · cadena de suministro · almacén · CEDIS · centro de distribución · WMS · TMS · patio y andenes · comercio exterior · aduanas México · NOM · Carta Porte · inventario cíclico · slotting · Claude Code · Agent Skills · CrewAI · multiagente
 
 ## Licencia
 
